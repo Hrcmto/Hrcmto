@@ -1,0 +1,26 @@
+.avatar {
+    width: 60px;
+    /*  Largeur */
+    height: 60px;
+    /*  Hauteur */
+    border-radius: 50%;
+    border: solid 2px #000;
+  }
+  html{
+    min-width: none;
+    background:url(gin.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar {
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    padding:20px 50px;
+    background-color: darkorange;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+  }

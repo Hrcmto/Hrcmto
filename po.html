@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company example • Pico.css</title>
+    <meta
+      name="description"
+      content="A classic company or blog layout with a sidebar. Built with Pico CSS."
+    />
+    <link rel="shortcut icon" href="https://picocss.com/favicon.ico" />
+    <link rel="canonical" href="https://picocss.com/examples/company/" />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+
+    <!-- Custom styles for this example -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+
+  <body>
+    <div class="hero" data-theme="dark">
+      <nav class="container-fluid">
+        <ul>
+          <li>
+            <a href="./" class="contrast" onclick="event.preventDefault()"
+              ><strong>YUMI</strong></a
+            >
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">NOS LERS</summary>
+              <ul role="listbox">
+                <li><a href="#" data-theme-switcher="auto">LA GROSSE FESSE</a></li>
+                <li><a href="#" data-theme-switcher="light">LA GRANDE ETINCELLE</a></li>
+                <li><a href="#" data-theme-switcher="dark">LE GARDE DU CORPS</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details role="list" dir="rtl">
+              <summary aria-haspopup="listbox" role="link" class="contrast">Nos réseaux</summary>
+              <ul role="listbox">
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Twitter</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+      <header class="container">
+        <hgroup>
+          <h1>YUMI JUICE</h1>
+          <h2>BUVEZ MIEUX, BUVEZ YUMI
+          </h2>
+        </hgroup>
+        <p><a href="#" role="button" onclick="event.preventDefault()">Call to action</a></p>
+      </header>
+    </div>
